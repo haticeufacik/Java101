@@ -16,16 +16,16 @@ public class NotOrtalamasi {
         System.out.println("Kimya notunuzu giriniz.");
         kimya = inp.nextInt();
 
-        System.out.println("Kimya notunuzu giriniz.");
+        System.out.println("Turkce notunuzu giriniz.");
         turkce = inp.nextInt();
 
-        System.out.println("Kimya notunuzu giriniz.");
+        System.out.println("Tarih notunuzu giriniz.");
         tarih = inp.nextInt();
 
-        System.out.println("Kimya notunuzu giriniz.");
+        System.out.println("Muzik notunuzu giriniz.");
         muzik = inp.nextInt();
 
-        ort = ((mat + fizik + kimya + turkce + tarih + muzik) / 6);
+        ort = (mat + fizik + kimya + turkce + tarih + muzik) / 6;
 
         System.out.println("ortalamaniz : " + ort);
         String sonuc = (ort >= 50) ? "Sinifi gecti" : "Sinifta kaldi";
