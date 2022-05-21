@@ -9,7 +9,6 @@ public class Fibonacci {
         }
         return fibo(a - 1) + fibo(a - 2);
 
-
     }
 
     public static void main(String[] args) {
